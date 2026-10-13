@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Nerve · Synthetic demo companion</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+  <script src="demo.js" defer></script>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div class="wordmark">nerve<span class="dot">.</span></div>
+      <span class="companion">Hackathon demo companion</span>
+      <span class="synthetic">SYNTHETIC FIXTURES ONLY</span>
+    </header>
+    <main>
+      <section class="intro" aria-labelledby="page-title">
+        <p class="eyebrow">FICTIONAL SCENARIO · NORTHWIND PEAK READINESS</p>
+        <h1 id="page-title">A goal. Its systems. The evidence.</h1>
+        <p class="lead">Explore three sample relationships and the limits of their evidence.</p>
+        <p class="notice">Illustrative sample data, not live API truth. Selecting a fixture does not run a query or call Nerve's backend.</p>
+      </section>
+      <section class="goal" aria-labelledby="goal-title">
+        <div><p class="eyebrow">DEMO GOAL</p><h2 id="goal-title">Keep peak-season orders flowing</h2></div>
+        <p>Fictional Northwind<br><span>Illustrative review: 12 Oct 2026 · 12:00 UTC</span></p>
+      </section>
+      <div class="workspace">
+        <section class="relationships" aria-labelledby="relationships-title">
+          <h2 id="relationships-title">Goal → system relationships</h2>
+          <p class="section-note">Select a bundled sample to inspect its evidence.</p>
+          <div class="cards" id="cards"></div>
+          <p class="legend">Supported, stale, and missing describe these fixtures. They are not a verdict on overall readiness.</p>
+        </section>
+        <section class="detail" aria-labelledby="detail-title" aria-live="polite" id="detail"></section>
+      </div>
+      <noscript><p class="notice">Enable JavaScript to switch between the three bundled synthetic fixtures. No backend connection is required.</p></noscript>
+    </main>
+    <footer><p>Synthetic demo companion · Core implementation private</p><p>Video pending · All rights reserved</p></footer>
+  </div>
+</body>
+</html>
