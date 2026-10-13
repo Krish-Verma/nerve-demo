@@ -29,7 +29,7 @@ This is a **synthetic demo companion**. Nerve's core implementation is private. 
 
 It is not a production UI, an implementation of Veer's interface, or a claim that this viewer implements Nerve's core capabilities.
 
-**Video: pending.** No video link is available yet.
+**Video:** [Watch the submitted demo on YouTube](https://www.youtube.com/watch?v=eK-YCyHIglw). [Devpost submission](https://devpost.com/software/nerve-qeft3v).
 
 ## Screenshots
 
